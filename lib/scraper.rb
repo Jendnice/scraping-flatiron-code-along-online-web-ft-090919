@@ -38,7 +38,7 @@ class Scraper
   
 end
 
- 
+ Scraper.new.print_courses 
 
 # collection of courses: doc.css(".post")
 # title: doc.css(".post").first.css("h2").text
