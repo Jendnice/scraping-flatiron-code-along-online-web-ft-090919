@@ -27,6 +27,7 @@ end
 
 Scraper.new.get_page 
 
+# collection of courses: doc.css(".post")
 # title: doc.css(".post").first.css("h2").text
 # schedule: doc.css(".post").first.css(".date").text
 # description: doc.css(".post").first.css("p").text
